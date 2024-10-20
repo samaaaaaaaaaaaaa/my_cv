@@ -1,0 +1,91 @@
+/* Limiter la taille à une page A4 */
+.cv-container {
+    width: 210mm;
+    height: 297mm;
+    margin: auto;
+    padding: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    overflow: hidden;
+}
+
+/* Styles pour la section supérieure horizontale */
+.header-section {
+    display: flex;
+    justify-content: flex-start; /* Pour aligner avec la section droite */
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-bottom: 2px solid #ddd;
+}
+
+.header-photo {
+    margin-right: 20px; /* Ajoute un espace entre la photo et le texte */
+}
+
+.header-photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.header-info {
+    max-width: 65%; /* Correspond à la largeur de la section droite */
+}
+
+.header-info h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #333;
+}
+
+.header-info h2 {
+    margin: 5px 0;
+    font-size: 22px;
+    color: #666;
+}
+
+.header-info p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+/* Styles pour la structure des colonnes */
+.content-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left-section {
+    width: 30%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-right: 2px solid #ddd;
+}
+
+/* Fond beige pour la section droite */
+.right-section {
+    width: 65%;
+    padding: 20px;
+    background-color: #d1e0e9;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Icônes dans la section contact */
+.contact-info p {
+    font-size: 16px;
+}
